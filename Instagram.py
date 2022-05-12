@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 from selenium.webdriver.common.keys import Keys
-driver=webdriver.Edge(executable_path=r"C:\Users\rishi\Desktop\Data science\Web scrapping\webdriver\msedgedriver.exe")
+driver=webdriver.Edge(executable_path=r"C:\Users\rishi\Desktop\Data science\Web scrapping\webdriver\msedgedriver.exe") #Enter your driver
 class instabot:
     def __init__(self):
         self.post=0
